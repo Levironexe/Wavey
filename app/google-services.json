@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606526375453",
+    "project_id": "wavey-f2a51",
+    "storage_bucket": "wavey-f2a51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606526375453:android:cef97af1dc07ca16dae8f4",
+        "android_client_info": {
+          "package_name": "com.example.wavey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUPW2lo7E4JMsGURqfmRhMgmxm_0Y3HMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

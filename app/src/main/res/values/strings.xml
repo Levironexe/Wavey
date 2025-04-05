@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Wavey</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_notes">Notes</string>
+
+    <!-- Login Screen -->
+    <string name="app_logo">App Logo</string>
+    <string name="music_rental_studio">Music Rental Studio</string>
+    <string name="wavey_hello">Welcome to Wavey</string>
+    <string name="wavey_subtitle">Organize your day, simplify your life</string>
+    <string name="email">Your email</string>
+    <string name="password">Your password</string>
+    <string name="repeatpassword">Your password, one more time, buddy</string>
+    <string name="login">Log in</string>
+    <string name="no_account_sign_up">Don\'t have an account?</string>
+    <string name="have_account">Have an account?</string>
+    <string name="or">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="signup">Sign up</string>
+
+
+    <string name="add_task">Add task</string>
+    <string name="add_note">Add note</string>
+
+    <string name="task_title">New task</string>
+    <string name="task_detail">Add details</string>
+    <string name="note_title">New note</string>
+    <string name="note_detail">Add details</string>
+
+    <string name="task_title_modify">Task</string>
+    <string name="task_details_modify">Task details</string>
+    <string name="note_title_modify">Note</string>
+    <string name="note_details_modify">Note details</string>
+
+    <string name="save">save</string>
+    <string name="calendar">Date &amp; time</string>
+    
+    
+    <!-- Task category -->
+    <string name="work">work</string>
+    <string name="school">school</string>
+    <string name="errands">errands</string>
+    <string name="shopping">shopping</string>
+    <string name="finance">finance</string>
+    <string name="fitness">fitness</string>
+
+    <string name="your_tasks">Your Tasks</string>
+    <string name="no_tasks_yet">No tasks yet</string>
+    <string name="add_a_new_task">Add a new task using the + button</string>
+
+
+    <!-- Home Fragment -->
+    <string name="not_completed">Not Complete</string>
+    <string name="completed">Completed</string>
+    <string name="completion_percentage">Tasks completed</string>
+    <string name="notes">Notes</string>
+
+
+    <!-- Task Fragment -->
+    <string name="task_list">Task list</string>
+    <string name="in_3_days">Tasks in 3 days</string>
+    <string name="due_date">Due: %1$s</string>
+    <string name="created_date">Created: %1$s</string>
+
+    <!-- Note Fragment-->
+    <string name="note_list">Note list</string>
+
+    <!-- Profile activity -->
+    <string name="log_out_message">Are you sure you want to log out? We\'re gonna miss you</string>
+
+
+    <string name="delete_task_message">Are you sure you want to delete this task?</string>
+    <string name="no_tags">No tags</string>
+</resources>

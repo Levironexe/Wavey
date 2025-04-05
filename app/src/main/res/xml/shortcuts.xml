@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Navigate to different sections -->
+    <capability android:name="actions.intent.OPEN_APP_FEATURE">
+        <intent
+            android:action="com.example.wavey.ASSISTANT_ACTION"
+            android:targetPackage="com.example.wavey"
+            android:targetClass="com.example.wavey.ui.MainActivity">
+            <parameter
+                android:name="feature"
+                android:key="feature" />
+        </intent>
+    </capability>
+
+    <!-- Create a new task -->
+    <capability android:name="actions.intent.CREATE_TASK">
+        <intent
+            android:action="com.example.wavey.ASSISTANT_ACTION"
+            android:targetPackage="com.example.wavey"
+            android:targetClass="com.example.wavey.ui.MainActivity">
+            <parameter
+                android:name="create_task"
+                android:key="create_task" />
+        </intent>
+    </capability>
+
+    <!-- Open a specific task -->
+    <capability android:name="actions.intent.OPEN_TASK">
+        <intent
+            android:action="com.example.wavey.ASSISTANT_ACTION"
+            android:targetPackage="com.example.wavey"
+            android:targetClass="com.example.wavey.ui.MainActivity">
+            <parameter
+                android:name="task_id"
+                android:key="task_id" />
+        </intent>
+    </capability>
+
+    <!-- Create a new note -->
+    <capability android:name="actions.intent.CREATE_NOTE">
+        <intent
+            android:action="com.example.wavey.ASSISTANT_ACTION"
+            android:targetPackage="com.example.wavey"
+            android:targetClass="com.example.wavey.ui.MainActivity">
+            <parameter
+                android:name="create_note"
+                android:key="create_note" />
+        </intent>
+    </capability>
+
+    <!-- Open a specific note -->
+    <capability android:name="actions.intent.OPEN_NOTE">
+        <intent
+            android:action="com.example.wavey.ASSISTANT_ACTION"
+            android:targetPackage="com.example.wavey"
+            android:targetClass="com.example.wavey.ui.MainActivity">
+            <parameter
+                android:name="note_id"
+                android:key="note_id" />
+        </intent>
+    </capability>
+</shortcuts>

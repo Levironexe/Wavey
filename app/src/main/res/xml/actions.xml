@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation phrases -->
+    <string-array name="feature_shortcuts">
+        <item>Show my home screen</item>
+        <item>Go to home</item>
+        <item>Show my tasks</item>
+        <item>Show all my tasks</item>
+        <item>Open task list</item>
+        <item>Show my notes</item>
+        <item>Show all my notes</item>
+        <item>Open note list</item>
+        <item>Open my profile</item>
+        <item>Show profile</item>
+    </string-array>
+
+    <!-- Task creation phrases -->
+    <string-array name="create_task_shortcuts">
+        <item>Create a new task</item>
+        <item>Add task</item>
+        <item>Make a task</item>
+        <item>Start new task</item>
+    </string-array>
+
+    <!-- Note creation phrases -->
+    <string-array name="create_note_shortcuts">
+        <item>Create a new note</item>
+        <item>Add note</item>
+        <item>Make a note</item>
+        <item>Start new note</item>
+    </string-array>
+</resources>

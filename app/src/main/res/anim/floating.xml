@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <!-- Smooth floating rotation -->
+    <rotate
+        android:duration="3500"
+        android:fromDegrees="-5"
+        android:toDegrees="5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"/>
+
+    <!-- Gentle vertical floating effect with easing -->
+    <translate
+        android:duration="3500"
+        android:fromYDelta="10dp"
+        android:toYDelta="-10dp"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/> <!-- Added this one for smooth transition -->
+</set>
